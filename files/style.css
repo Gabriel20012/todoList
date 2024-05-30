@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  background-color: rgb(193, 179, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title {
+  color: rgb(66, 65, 65);
+}
+/*list container*/
+#container-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 550px;
+
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px;
+}
+/*list container*/
+/*--input--*/
+#cont-input {
+  padding: 25px;
+  border-radius: 15px;
+}
+#ingredient {
+  border: 1px solid blueviolet;
+  padding: 15px;
+}
+#Quantity {
+  width: 10%;
+  border: 1px solid blueviolet;
+  padding: 15px;
+}
+
+input {
+  border-radius: 15px;
+  border: none;
+  color: rgb(0, 0, 0);
+}
+/*--input--*/
+/*--btn--*/
+#cont-btn {
+  border: 2px solid white;
+  padding: 15px;
+
+  border-radius: 15px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  border: 1px solid blueviolet;
+  padding: 10px;
+  font-size: 15px;
+}
+/*--btn--*/
+#container {
+  border: 1px solid blueviolet;
+  padding: 50px;
+  margin: 10px;
+  overflow-y: scroll;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*--clear section--*/
+.container-clear {
+  width: 50%;
+  height: 200px;
+  background-color: rgba(197, 177, 89, 0.76);
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
+/*--clear section--*/
+
+/*style ingredients*/
+.ingredient {
+  border-bottom: 2px solid rgb(13, 58, 209);
+  font-size: 20px;
+  cursor: pointer;
+}
+/*style ingredients*/
+
+/* line through for ingredients*/
+.takeit {
+  text-decoration: line-through;
+  color: rgb(46, 45, 45);
+  font-size: 15px;
+}
+
+/*hidden class for clear*/
+.hidden {
+  display: none;
+}
+/*hidden class for clear*/
