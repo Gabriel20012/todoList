@@ -78,22 +78,18 @@ function addToDom() {
 }
 
 // popOut to clear the storage
-function clearStorageContainer() {
-    clearContainer.classList.remove('hidden');
-}
+const clearStorageContainer = () => clearContainer.classList.remove('hidden');
+
 
 // delete the data from the storage
-function defClear() {
+const defClear = () => {
     localStorage.removeItem('ingredients');
     clearContainer.classList.add('hidden');
     cont.innerHTML = '';
 }
 
 // hidden the popOut
-function exit() {
-    clearContainer.classList.add('hidden');
-}
-
+const exit = () => clearContainer.classList.add('hidden');
 
 
 // Events
